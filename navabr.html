@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./navbar.css"> <!--- Css File import link --->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'> <!---Boxicon import link --->    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--Import Link For W3.CSS for Animation-->
+    <title>Responsive Navbar</title>
+</head>
+<body>
+    <div class="home">
+        <!-- HTML For Navbar -->
+            <nav class="navbar" id="nav">
+                <div class="logo">
+                    <img src="./Media/Logo.png" alt="logo">
+                </div>
+               
+                <div class="burger-menu">
+                    <i class='bx bx-menu' id="btn"></i>
+                </div>
+
+                <div class="nav-links w3-animate-right" id="nav-links">
+                    <img src="./Media/Logo.png" alt="logo" class="logo-menu">
+                    <li><a href="#home" class="link">Home</a></li>
+                    <li><a href="#about" class="link">About</a></li>
+                    <li><a href="#skills" class="link">Skills</a></li>
+                    <li><a href="#contact" class="link">Contact</a></li>
+                </div>
+
+            </nav>
+
+        <!-- HTML For Home Content -->
+            <div class="home-content"></div>
+
+    </div>
+
+    <!-- JavaScript For the Burger Menu -->
+
+    <script src="./navbar.js"></script>
+
+
+</body>
+</html>
